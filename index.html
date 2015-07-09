@@ -15,7 +15,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
     
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+    <!-- <link rel="stylesheet" href="css/theme/night.css" id="theme"> -->
+    <!-- <link rel="stylesheet" href="css/theme/solarized.css" id="theme"> -->
+    <!-- <link rel="stylesheet" href="css/theme/sky.css" id="theme"> -->
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
     
     <!-- Code syntax highlighting -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -44,28 +47,26 @@
 	  <h1>Plot.ly</h1>
 	  <h2>Collaborative data science</h2>
 	  <p>
-	    <small>Slides boosted by  <a href="http://lab.hakim.se/reveal-js">reveal.js</a></small>
+	    <small>Slides made with <a href="http://lab.hakim.se/reveal-js">reveal.js</a></small>
 	  </p>
 	</section>
 
 	<section>
 	  <h2>What is plot.ly</h2>
-	      <ul>
-	      <li class="fragment grow">Plotting library</li>
-	      <li class="fragment grow">Online workspace: </li>
-		<ul>
-		  <li class="fragment grow">publish</li>
-		  <li class="fragment grow">Share</li>
-		  <li class="fragment grow">Edit</li>
-		  <li class="fragment grow">Data + plots</li>
-		</ul>
-	      <li class="fragment grow">Library for Python, R, Matlab, Julia and JS (and Excel)</li>
-	      <li class="fragment grow">Matplotlib and ggplot2 converters</li>
-	      <li class="fragment grow">Works with numpy arrays and pandas dataframe in python</li>
-	      <li class="fragment grow">Based on D3</li>
-	      </ul>
-	      
-	      
+	  <ul>
+	    <li>Plotting library</li>
+	    <li class="fragment">Online workspace: </li>
+	    <ul>
+	      <li class="fragment">Publish</li>
+	      <li class="fragment">Share</li>
+	      <li class="fragment">Edit (Layout)</li>
+	      <li class="fragment">Data + plots</li>
+	    </ul>
+	    <li class="fragment">Library for Python, R, Matlab, Julia and JS (and Excel)</li>
+	    <li class="fragment">Matplotlib and ggplot2 converters</li>
+	    <li class="fragment">Works with numpy arrays and pandas dataframe in python</li>
+	    <li class="fragment">Based on D3</li>
+	  </ul>
 	</section>
 
 	<section>
@@ -281,12 +282,12 @@ py.plot(fig, filename='overlaid-histogram-layout')
 	<section>
 	  <h2>Conclusion</h2>
 	  <ul>
-	    <li>Highly configurable</li>
-	    <li>Nice plots</li>
-	    <li>Free</li>
-	    <li>Connection with lots of languages</li>
-	    <li>Need an internet connection</li>
-	    <li>Some plots really long to load</li>
+	    <li class="fragment">Highly configurable</li>
+	    <li class="fragment">Nice plots</li>
+	    <li class="fragment">Free</li>
+	    <li class="fragment">Connection with lots of languages</li>
+	    <li class="fragment">Need an internet connection</li>
+	    <li class="fragment">Some plots really long to load</li>
 	</section>
       </div>
     </div>
@@ -304,7 +305,7 @@ py.plot(fig, filename='overlaid-histogram-layout')
       history: true,
       center: true,
       
-      transition: 'fade', // none/fade/slide/convex/concave/zoom
+      transition: 'none', // none/fade/slide/convex/concave/zoom
       
       // Optional reveal.js plugins
       dependencies: [
